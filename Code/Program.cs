@@ -3,12 +3,14 @@
     string input = Console.ReadLine();
     return input;
 }
+
 void ShowArray(string[] array) {
     for (int i = 0; i < array.Length; i++) {
         System.Console.Write($"{array[i]}  ");
     }
     System.Console.WriteLine();
 }
+
 string[] CreateArray() {   
     int count = 0;
     string value = String.Empty;
@@ -26,6 +28,7 @@ string[] CreateArray() {
     }
     return array;
 }
+
 string[] CheckArray(string[] array) {   
     int count = 0;
     int index = 0;
