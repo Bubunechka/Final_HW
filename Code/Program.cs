@@ -47,4 +47,3 @@ System.Console.Write("Полученные данные: ");
 ShowArray(array);
 System.Console.Write("Результат: ");
 ShowArray(CheckArray(array));
-
